@@ -12,6 +12,7 @@ import Team from "./component/Team/Team.jsx";
 import Projects from "./component/Projects/Projects.jsx";
 import Bugs from "./component/Bugs/Bugs.jsx";
 import File from "./component/File/File.jsx";
+import Settings from "./component/Settings/Settings";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <Route path="/projects" element={<Projects />} />
       <Route path="/bugs" element={<Bugs />} /> 
       <Route path="/files" element={<File />} />
+      <Route path="/settings" element={<Settings />} />
     </Routes>
   );
 }
